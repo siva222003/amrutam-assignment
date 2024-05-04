@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
@@ -9,14 +10,14 @@ const Navbar = () => {
 
           <div className="ml-16">
             <ul className="flex">
-              <li className="px-3 text-[13px] font-[520] cursor-pointer">
-                Home
+              <li className="px-3 text-[14px] font-[700] cursor-pointer">
+                <NavLink to="/" className={({isActive}) => isActive ? "text-primary" : ""} >Home</NavLink>
               </li>
-              <li className="px-3 text-[13px] font-[520] cursor-pointer text-primary">
-                Find Doctors
+              <li className="px-3 text-[14px] font-[700] cursor-pointer ">
+                <NavLink to="/find-doctors" className={({isActive}) => isActive ? "text-primary" : ""}>Find Doctors</NavLink>
               </li>
-              <li className="px-3 text-[13px] font-[520] cursor-pointer">
-                About
+              <li className="px-3 text-[14px] font-[700] cursor-pointer">
+                <NavLink to="/about" className={({isActive}) => isActive ? "text-primary" : ""}>About</NavLink>
               </li>
             </ul>
           </div>

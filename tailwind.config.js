@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: "Poppins",
+        nunito: "Nunito",
         dinpro: "DINPro",
       },
       colors: {
