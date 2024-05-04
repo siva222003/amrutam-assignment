@@ -1,5 +1,5 @@
-import reviewuser from "../../../public/images/reviewuser.png";
-import star from "../../../public/images/star.svg";
+import reviewuser from "../../assets/images/reviewuser.png";
+import star from "../../assets/images/star.svg";
 
 const Reviews = () => {
   return (

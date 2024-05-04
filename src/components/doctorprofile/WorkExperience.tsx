@@ -1,5 +1,5 @@
 
-import work from '../../../public/images/work.svg'
+import work from '../../assets/images/work.svg'
 
 const WorkExperience = () => {
   return (

@@ -1,9 +1,9 @@
-import womenshealth from "../../../public/images/womenshealth.svg";
-import immunity from "../../../public/images/immunity.svg";
+import womenshealth from "../../assets/images/womenshealth.svg";
+import immunity from "../../assets/images/immunity.svg";
 
-import skincare from "../../../public/images/skincare.svg";
+import skincare from "../../assets/images/skincare.svg";
 
-import haircare from "../../../public/images/haircare.svg";
+import haircare from "../../assets/images/haircare.svg";
 
 const Specialize = () => {
   return (

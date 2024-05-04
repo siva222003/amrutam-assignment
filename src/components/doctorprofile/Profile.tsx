@@ -1,7 +1,7 @@
-import coverphoto from "../../../public/images/coverphoto.png";
-import profile from "../../../public/images/profile.png";
-import star from "../../../public/images/star.svg";
-import verify from "../../../public/images/verify.svg";
+import coverphoto from "../../assets/images/coverphoto.png";
+import profile from "../../assets/images/profile.png";
+import star from "../../assets/images/star.svg";
+import verify from "../../assets/images/verify.svg";
 
 const Profile = () => {
   return (

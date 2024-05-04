@@ -1,8 +1,8 @@
-import facebook from "../../../public/images/facebook.svg";
-import twitter from "../../../public/images/twitter.svg";
-import youtube from "../../../public/images/youtube.svg";
-import instagram from "../../../public/images/instagram.svg";
-import plus from "../../../public/images/plus.svg";
+import facebook from "../../assets/images/facebook.svg";
+import twitter from "../../assets/images/twitter.svg";
+import youtube from "../../assets/images/youtube.svg";
+import instagram from "../../assets/images/instagram.svg";
+import plus from "../../assets/images/plus.svg";
 
 const AboutMe = () => {
   return (
@@ -51,13 +51,13 @@ const AboutMe = () => {
         </div>
 
         <div className="flex gap-3">
-          <img src={facebook} alt="Facebook" />
+          <img src={facebook} className="cursor-pointer" alt="Facebook" />
 
-          <img src={instagram} alt="Instagram" />
+          <img src={instagram} className="cursor-pointer" alt="Instagram" />
 
-          <img src={youtube} alt="Youtube" />
+          <img src={youtube} className="cursor-pointer" alt="Youtube" />
 
-          <img src={twitter} alt="Twitter" />
+          <img src={twitter} className="cursor-pointer" alt="Twitter" />
         </div>
       </div>
     </div>
